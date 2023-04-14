@@ -1,0 +1,19 @@
+/* Overview: CSS for global editor section */
+
+.globalEditor {
+  text-align: center;
+  background-color: rgb(85, 85, 85);
+  padding: 10px;
+  max-height: 100vh;
+}
+
+.globalEditor div {
+  padding: 3px;
+  margin-top: 10px;
+  text-align: left;
+}
+
+.deleteButton {
+  border: 1px solid red;
+  color: red;
+}

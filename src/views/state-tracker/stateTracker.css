@@ -1,0 +1,15 @@
+/* Overview - CSS file for the state tracker section */
+
+.stateTracker {
+  padding: 10px;
+}
+
+.totalState {
+  margin-bottom: 40px;
+}
+
+.stateTracker button {
+  margin-top: 80px;
+  border: 1px solid red;
+  color: red;
+}

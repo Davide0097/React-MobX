@@ -1,0 +1,52 @@
+/* Overview - Css for available shapes section */
+
+.availableShapes {
+  background-color: rgb(83, 83, 83);
+  text-align: center;
+  height: 100vh;
+}
+
+.ball h1,
+.square h1,
+.arch h1 {
+  color: darkgray;
+}
+
+.shape {
+  display: flex;
+}
+
+.line {
+  background-color: black;
+  width: 50px;
+  height: 10px;
+  margin-top: 45px;
+  margin-left: 27px;
+}
+
+.availableShapes h1 {
+  font-size: 32px;
+  margin: 6px 12px 6px 12px;
+}
+
+.shapes {
+  margin: 12px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.editor {
+  text-align: center;
+}
+
+.lineEditor {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.colorEditor {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  text-align: center;
+}

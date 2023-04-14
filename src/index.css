@@ -1,0 +1,35 @@
+/* Overview: CSS Global file */
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.App {
+  display: flex;
+  font-family: "Bebas Neue", cursive;
+  max-height: 100vh;
+  max-height: 100vw;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  border-radius: 3px;
+  background-color: white;
+  padding: 4px 7px 4px 7px;
+  font-size: 17px;
+  font-weight: 600;
+  font-family: "Bebas Neue", cursive;
+  margin: 3px;
+}
+
+li {
+  cursor: pointer;
+  text-decoration: none;
+  list-style: none;
+}
+
+p {
+  font-size: 22px;
+}
